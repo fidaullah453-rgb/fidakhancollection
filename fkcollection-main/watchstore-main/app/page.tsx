@@ -69,8 +69,8 @@ export default function Home(){
       </header>
 
       <div className="relative h-[420px] md:h-[540px] bg-black w-full overflow-hidden">
-        <img src="/banner.jpeg" className="w-full h-full object-cover" alt="banner"/>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60"></div>
+       <img src="/banner.jpeg" className="w-full h-full object-cover brightness-[1.15] contrast-[1.25] saturate-[1.6]" alt="banner"/>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/10 to-black/40"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
           <p className="text-amber-300 text-xs tracking-[0.35em] font-semibold">PREMIUM WATCHES PAKISTAN</p><h1></h1>
           <a href="#products" className="mt-7 bg-white text-black hover:bg-amber-300 px-9 py-3.5 rounded-full font-semibold transition">Shop Now</a>
